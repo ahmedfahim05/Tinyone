@@ -1,0 +1,122 @@
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { ... }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .icon_link1{
+        display: none;
+    }
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  
+
+    .navbar-nav{
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+    .navbar-nav a{
+        flex-direction: column;
+        margin-bottom: 10px; 
+        text-align: end;
+    }
+    #menubtn {
+        display: block;
+    }
+
+    .icon_link1{
+        display: none;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h1{
+        font-size: 32px;
+        margin: 12px 0px 0px 0px;
+    }
+    .text .text-one{
+        font-size: 20pt;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .text .text-two{
+        font-size: 16pt;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .ap_win_ap{
+        display: flex;
+        justify-content: center;
+    }
+    .body_text h1{
+        margin: 35px 0px 0px 0px;
+    }
+    .text_three{
+        margin: 15px 0px 15px 0px;
+    }
+    .text_area_01 p{
+        margin: 15px 0px 35px 0px;
+    }
+
+ }
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .navbar-nav{
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+    }
+    .navbar-nav a{
+        flex-direction: column;
+        margin-bottom: 10px; 
+        text-align: end;
+    }
+    #menubtn {
+        display: block;
+    }
+
+    .icon_link1{
+        display: none;
+    }
+    .text{
+        text-align: center;
+    }
+    .text h1{
+        font-size: 27px;
+        margin: 12px 0px 0px 0px;
+    }
+    .text .text-one{
+        font-size: 13pt;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .text .text-two{
+        font-size: 8pt;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .ap_win_ap{
+        display: flex;
+        justify-content: center;
+    }
+    .body_text h1{
+        margin: 35px -43px 0px -43px;
+    }
+    .text_three{
+        margin: 15px 0px 15px 0px;
+    }
+    .text_area_01 p{
+        margin: 15px 0px 35px 0px;
+    }
+ }

@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+}
+ul,ol{ 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "PT Sans", system-ui;
+    overflow-x: hidden;
+}
+
+/* bannar */
+
+#bannar{
+    background-color: #fcdb00;
+    /* height: 740px; */
+    background-size: cover cover;
+}
+.bannar_area{
+    padding: 60px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+a img{
+    width: 43px;
+    height: 43px;
+    margin: 0px 10px 0px 0px;
+}
+.icon_link{
+    display: flex;
+}
+.navbar,a h1{
+    font-size: 30pt;
+    font-weight: bold;
+    font-family: "PT Sans", system-ui;
+    color: #000000;
+}
+.navbar a{
+    color: #000000;
+    padding: 0px 0px 0px 0px;
+    margin-left: 50px;
+    font-size: 22pt;
+    font-family: "PT Sans", system-ui;
+}
+#menubtn{
+    display: none;
+    text-align: end;
+}
+#menubtn img{
+    width: 20%;
+ }
+.bannar_body{
+    display: flex;
+}
+.text h1{
+    font-size: 32pt;
+    font-weight: bold;
+    color: #000000;
+    margin: 105px 0px 0px 0px;
+    font-family: "PT Sans", system-ui;
+}
+.text .text-one{
+    font-size: 20pt;
+    color: #313842;
+    padding: 17px 550px 0px 0px;
+    font-family: "PT Sans", system-ui;
+}
+.text .text-two{
+    font-size: 16pt;
+    color: #313842;
+    padding: 25px 445px 0px 0px;
+    font-family: "PT Sans", system-ui;
+}
+.text img{
+    width: 43px;
+    height: 43px;
+    margin: 40px 35px 0px 0px;
+}
+.icon_link1{
+    background-image: url(../image/Base.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 62px;
+}
+.icon_link1_overlay{
+    background-color: #000000;
+    border-radius: 12px;
+    width: 315px;
+    height: 470px;
+    position: relative;
+}
+.icon_link1_overlay::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 315px;
+    height: 470px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    z-index: 1;
+}
+.icon_link1_overlay::after{
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 14px;
+    width: 288px;
+    height: 382px;
+    background-color: #000000;
+    z-index: 999;
+}
+.icon_link_overlay02{
+    display: flex;
+    justify-content: center;
+    padding: 221px 72px;
+}
+.icon_link1 img{
+    margin-right: 10px;
+}
+.tinyone{
+    font-size: 30pt;
+    font-weight: bold;
+    color: #fcdb00;
+    font-family: "PT Sans", system-ui;
+}
+.white_circle{
+    text-align: center;
+    padding: 44px 0px 44px 0px;
+}
+
+/* Body_Area */
+
+#body_area{
+    /* height: 740px; */
+}
+.body_text{
+    text-align: center;
+}
+.body_text h1{
+    font-size: 32pt;
+    font-weight: bold;
+    color: #000000;
+    margin: 112px 0px 0px 0px;
+    font-family: "PT Sans", system-ui;
+}
+.text_three{
+    font-size: 20pt;
+    color: #000000;
+    margin: 0px 155px 42px 155px;
+    font-family: "PT Sans", system-ui;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.box_sizing0{
+    margin: 0px 0px 90px 0px !important;
+}
+.box_sizing01{
+    display: flex;
+    margin: 0px 0px 140px 0px;
+}
+.box_sizing02{
+    text-align: center;
+    margin: 0px 24px 0px 0px;
+}
+.icon-font{
+    width: 44px;
+    height: 37px;
+}
+.bodypart01{
+    text-align: start;
+    margin: 0px 0px 0px 0px;
+}
+.bodypart010{
+    font-size: 22px;
+    color: #010101;
+    margin: 0px 0px 0px 0px;
+    font-family: "PT Sans", system-ui;
+}
+.bodypart001{
+    font-size: 16px;
+    color: #909090;
+    margin: 12px 135px 0px 0px;
+    font-family: "PT Sans", system-ui;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #000000;
+    /* height: 770px; */
+}
+.text_area_01 h1{
+    padding-top: 97px;
+    text-align: center;
+    color: #fcdb00;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "PT Sans", system-ui;
+}
+.text_area_01 p{
+    text-align: center;
+    color: #717171;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "PT Sans", system-ui;
+    margin: 20px 260px 44px 260px;
+}
+.form-control{
+    width: 580px;
+    height: 50px;
+}
+.btn{
+    color: #010101;
+    width: 125px;
+    height: 50px;
+    background-color: #fcdb00;
+    border: 1px solid #fcdb00;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "PT Sans", system-ui;
+    transition: all linear 0.3s;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #fcdb00;
+}
+.icon-04{
+    margin-top: 80px;
+    margin-bottom: 130px;
+}
+.icon-04 li{
+    padding-right: 25px;
+}
+.text_imfo{
+    padding-bottom: 140px;
+}
+.col-4 p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "PT Sans", system-ui;
+}
+.col-2 p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "PT Sans", system-ui;
+}
+.myclass{
+    margin-top: 150px;
+}
